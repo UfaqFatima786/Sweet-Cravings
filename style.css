@@ -167,6 +167,7 @@ body {
 }
 .sweets-hero{
     background-color: #016d6d;
+    border-radius: 20px;
 }
 
 .img-fluid {
@@ -184,8 +185,15 @@ body {
     animation-name: __pulse;
     animation-duration: 2s;
 }
-
-
+.bakery-heading{
+     font-style: italic;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #08025c;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
 
 
 .footer {
