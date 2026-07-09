@@ -194,6 +194,263 @@ body {
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px rgb(255, 255, 255);
 }
+.bakery-heading:hover{
+    cursor: pointer;
+     font-style: italic;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #0c01a0;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    animation: backwards;
+    animation-duration: 2sec;
+}
+
+section{
+    padding: 90px 8%;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h5{
+    color: #b1def3;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.section-title h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #88ccfa;
+    margin-bottom: 15px;
+        transition: all 0.4s ease;
+
+}
+.section-title h2:hover{
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: 600;
+    color: #71acd3;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.section-title p{
+    max-width: 700px;
+    margin: auto;
+    color: #ffffff;
+    line-height: 1.8;
+}
+
+.why-choose-us{
+ background-color: #016d6d;
+    border-radius: 20px;}
+
+.choose-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.choose-card{
+    background: #bfedfa;
+    border-radius: 15px;
+    padding: 40px 25px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.choose-card:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+.choose-card i{
+    width: 80px;
+    height: 80px;
+    background: #06afd9;
+    color: #fff;
+    font-size: 32px;
+    line-height: 80px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    transition: .4s;
+}
+
+.choose-card:hover i{
+    background: #137d8b;
+    transform: rotate(360deg);
+}
+
+.choose-card h3{
+    color: #222;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.choose-card p{
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.featured-products{
+ background-color: #016d6d;
+    border-radius: 20px;}
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.product-card{
+    background: #bfedfa;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    transition: .4s;
+}
+
+.product-card:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.product-card img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: .5s;
+}
+
+.product-card:hover img{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.product-card h3{
+    padding:20px 20px 10px;
+    font-size:24px;
+    color:#222;
+}
+
+.product-card p{
+    padding:0 20px;
+    color:#333333;
+    line-height:1.7;
+}
+
+.product-card h4{
+    color:#015964;
+    padding:15px 20px;
+    font-size:24px;
+    text-align: center;
+}
+
+.product-card button{
+    margin:0 20px 25px;
+    padding:12px 28px;
+    border:none;
+    background:#00494e;
+    color:#ffffff;
+    border-radius:30px;
+    cursor:pointer;
+    transition:.3s;
+    font-size:16px;
+    font-weight:600;
+}
+
+.product-card button:hover{
+    cursor: pointer;
+    color: #000;
+    background:#1694aa;
+}
+
+@media(max-width:992px){
+
+.choose-container{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.product-container{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.section-title h2{
+    font-size:34px;
+}
+
+}
+
+@media(max-width:768px){
+
+section{
+    padding:70px 5%;
+}
+
+.choose-container,
+.product-container{
+    grid-template-columns:1fr;
+}
+
+.section-title h2{
+    font-size:30px;
+}
+
+.choose-card{
+    padding:35px 20px;
+}
+
+.product-card img{
+    height:240px;
+}
+
+}
+
+@media(max-width:480px){
+
+.section-title h2{
+    font-size:26px;
+}
+
+.section-title p{
+    font-size:15px;
+}
+
+.choose-card i{
+    width:70px;
+    height:70px;
+    line-height:70px;
+    font-size:28px;
+}
+
+.product-card h3{
+    font-size:22px;
+}
+
+.product-card h4{
+    font-size:20px;
+}
+
+.product-card button{
+    width:calc(100% - 40px);
+}
+
+}
 
 
 .footer {
