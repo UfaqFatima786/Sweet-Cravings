@@ -387,10 +387,6 @@ section {
     background: #1694aa;
 }
 
-/*====================================
-        SPECIAL OFFERS
-=====================================*/
-
 .special-offers {
     background: linear-gradient(rgba(80, 35, 20, .75), rgba(80, 35, 20, .75)),
         url("images/offer-bg.jpg") center/cover no-repeat;
@@ -440,10 +436,6 @@ section {
     background: #fff;
     color: #D97706;
 }
-
-/*====================================
-        BEST SELLERS
-=====================================*/
 
 .best-sellers {
     padding: 90px 8%;
@@ -553,50 +545,9 @@ section {
     line-height: 1.8;
 }
 
-/*====================================
-        RESPONSIVE
-=====================================*/
-
-@media(max-width:992px) {
-
-    .offer-content h2 {
-        font-size: 38px;
-    }
-
-    .seller-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .quality-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
-
 @media(max-width:768px) {
 
-    .special-offers,
-    .best-sellers,
-    .quality-promise {
-        padding: 70px 5%;
-    }
-
-    .offer-content h2 {
-        font-size: 30px;
-    }
-
-    .offer-content p {
-        font-size: 16px;
-    }
-
-    .seller-container,
-    .quality-container {
-        grid-template-columns: 1fr;
-    }
-
-    .seller-card img {
-        height: 260px;
-    }
+    
 
 }
 
@@ -653,11 +604,42 @@ section {
     .section-title h2 {
         font-size: 34px;
     }
+  .offer-content h2 {
+        font-size: 38px;
+    }
 
+    .seller-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .quality-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media(max-width:768px) {
+.special-offers,
+    .best-sellers,
+    .quality-promise {
+        padding: 70px 5%;
+    }
 
+    .offer-content h2 {
+        font-size: 30px;
+    }
+
+    .offer-content p {
+        font-size: 16px;
+    }
+
+    .seller-container,
+    .quality-container {
+        grid-template-columns: 1fr;
+    }
+
+    .seller-card img {
+        height: 260px;
+    }
     section {
         padding: 70px 5%;
     }
