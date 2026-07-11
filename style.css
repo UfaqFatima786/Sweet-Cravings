@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 
     background: linear-gradient(135deg, #0e3331, #034a5c, #00afaf);
@@ -12,6 +16,27 @@ body {
     background: linear-gradient(135deg, #38a2aa, #015858, #009292);
     border-radius: 20px;
     box-shadow: #9aecbc;
+}
+
+.page-section-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 15px 0 25px;
+    padding: 0 15px;
+}
+
+.page-section-link {
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.page-section-link:hover {
+    background: rgba(255, 255, 255, 0.24);
+    color: #fff;
 }
 
 .logo-1 {
