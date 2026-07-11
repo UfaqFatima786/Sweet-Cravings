@@ -87,6 +87,7 @@ section {
     font-size: 20px;
     margin-top: 10px;
 }
+
 .story {
     background-color: #016d6d;
     border-radius: 20px;
@@ -126,6 +127,7 @@ section {
         transform: translateY(-20px);
     }
 }
+
 .story-text h4 {
     text-align: center;
     font-size: 30px;
@@ -200,16 +202,18 @@ section {
     cursor: pointer;
     transform: translateY(-8px);
 }
+
 .card i {
     font-size: 40px;
     color: #026572;
     margin-bottom: 20px;
 }
 
-.team{
-     background-color: #016d6d;
+.team {
+    background-color: #016d6d;
     border-radius: 20px;
 }
+
 .member {
     flex: 1;
     min-width: 250px;
@@ -244,7 +248,7 @@ section {
 
 .cta {
     text-align: center;
-     background-color: #016d6d;
+    background-color: #016d6d;
     border-radius: 20px;
 }
 
@@ -265,6 +269,7 @@ section {
     text-decoration: none;
     border-radius: 30px;
 }
+
 .cta a:hover {
     background: #004242;
     padding: 15px 35px;
@@ -362,7 +367,7 @@ section {
 }
 
 @media(max-width:768px) {
- .footer {
+    .footer {
         padding: 50px 20px;
     }
 
@@ -407,6 +412,7 @@ section {
         text-align: center;
         margin-top: 30px;
     }
+
     .container {
         flex-direction: column;
     }
