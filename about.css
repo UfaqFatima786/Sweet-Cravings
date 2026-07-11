@@ -205,12 +205,7 @@ section {
     color: #026572;
     margin-bottom: 20px;
 }
-/* .card i:hover {
-    cursor: pointer;
-    font-size: 40px;
-    color: #01383f;
-    margin-bottom: 20px;
-} */
+
 .team{
      background-color: #016d6d;
     border-radius: 20px;
@@ -230,8 +225,6 @@ section {
 .member h3 {
     margin-top: 15px;
 }
-
-/* Counter */
 
 .counter {
     background-color: #016d6d;
