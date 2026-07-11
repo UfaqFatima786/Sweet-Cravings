@@ -588,7 +588,8 @@ section {
     .section-title h2 {
         font-size: 34px;
     }
-  .offer-content h2 {
+
+    .offer-content h2 {
         font-size: 38px;
     }
 
@@ -602,7 +603,54 @@ section {
 }
 
 @media(max-width:768px) {
-.special-offers,
+
+    .footer {
+        padding: 50px 20px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-col {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-col ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .footer-col ul li {
+        margin: 10px 0;
+    }
+
+    .footer-col a {
+        text-decoration: none;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .special-offers,
     .best-sellers,
     .quality-promise {
         padding: 70px 5%;
@@ -624,6 +672,7 @@ section {
     .seller-card img {
         height: 260px;
     }
+
     section {
         padding: 70px 5%;
     }
@@ -648,7 +697,7 @@ section {
 }
 
 @media(max-width:480px) {
- .offer-content h2 {
+    .offer-content h2 {
         font-size: 25px;
     }
 
@@ -679,6 +728,7 @@ section {
     .quality-card h3 {
         font-size: 22px;
     }
+
     .section-title h2 {
         font-size: 26px;
     }
