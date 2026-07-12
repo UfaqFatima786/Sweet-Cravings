@@ -355,7 +355,9 @@ section {
 }
 
 @media(max-width:992px) {
-
+.navbar{
+    text-align: center;
+}
     .overlay h1 {
         font-size: 42px;
     }

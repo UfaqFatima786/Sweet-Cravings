@@ -572,6 +572,80 @@ section {
     line-height: 1.8;
 }
 
+.footer {
+    background: #014b58;
+    padding: 60px 10%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.footer-col h2 {
+    color: #a2defa;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.footer-col p {
+    color: #ffffff;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #abadff;
+    padding-left: 5px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00ffaa;
+    transform: translateX(5px);
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    color: #aaa;
+    font-size: 14px;
+}
 @media(max-width:992px) {
     .navbar {
         text-align: center;
@@ -603,8 +677,7 @@ section {
 }
 
 @media(max-width:768px) {
-
-    .footer {
+     .footer {
         padding: 50px 20px;
     }
 
@@ -649,7 +722,6 @@ section {
         text-align: center;
         margin-top: 30px;
     }
-
     .special-offers,
     .best-sellers,
     .quality-promise {
