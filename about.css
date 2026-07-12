@@ -441,20 +441,113 @@ section {
 
 @media(max-width:480px) {
 
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 16px;
+        gap: 20px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    .about-banner {
+        height: 45vh;
+    }
+
     .overlay h1 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .overlay p {
-        font-size: 16px;
+        font-size: 15px;
+    }
+
+    .story .container,
+    .mission .container,
+    .trust .container,
+    .team .container,
+    .counter .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .story-img img {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .story-text h4 {
+        font-size: 22px;
     }
 
     .story-text h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
+    .story-text p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .story-text a {
+        padding: 12px 24px;
+    }
+
+    .box,
+    .card,
+    .member,
+    .counter .container > div,
+    .footer-col {
+        width: 100%;
+    }
+
+    .box {
+        padding: 28px 20px;
+    }
+
+    .card {
+        padding: 24px;
+    }
+
+    .member img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .member {
+        min-width: unset;
+    }
+
+    .card {
+        min-width: unset;
+    }
+
+    .trust h2,
+    .team h2,
     .cta h2 {
         font-size: 26px;
+    }
+
+    .counter .container {
+        gap: 20px;
+    }
+
+    .counter h2 {
+        font-size: 32px;
+    }
+
+    .cta {
+        padding: 30px 18px;
+    }
+
+    .cta a {
+        padding: 12px 24px;
     }
 
 }

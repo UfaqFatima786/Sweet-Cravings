@@ -449,3 +449,12 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+@media(max-width:460px) {
+    .shop-hero h1 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 12px;
+        color: #014b58;
+    }
+}
