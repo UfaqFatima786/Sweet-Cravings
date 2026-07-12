@@ -195,11 +195,6 @@ body {
     background-color: #016d6d;
     border-radius: 20px;
 }
-.bakery-img{
-    width:75%;
-    max-width:500px;
-    height:auto;
-}
 
 .bakery-heading{
     font-size:48px;
@@ -213,15 +208,15 @@ body {
 
 
 
-.img-fluid {
-    width: 300px;
-    height: 300px;
+.bakery-img {
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     border: 2px solid rgb(1, 55, 80);
     box-shadow: 5px 5px 15px rgb(248, 244, 244);
 }
 
-.img-fluid:hover {
+.bakery-img:hover {
     transform: scale(1.05);
     box-shadow: 5px 5px 25px rgb(3, 55, 57);
     cursor: pointer;
